@@ -13,6 +13,9 @@ body {
     padding-top: 25px;
 }
 
+.ref-list{
+    font-size: 15px;
+}
 .people-title {
     color: #AAAAAA;
     font-family: Raleway, sans-serif
