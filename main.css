@@ -20,3 +20,15 @@ body {
     color: #AAAAAA;
     font-family: Raleway, sans-serif
 }
+
+.jumbotron h1{
+    font-size: 50px;
+}
+
+.media img{
+    width: 180px;
+}
+
+.col-md-1 {
+    font-size: 16px;
+}
