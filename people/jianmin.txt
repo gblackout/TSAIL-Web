@@ -1,0 +1,3 @@
+Jianmin Li
+
+Dr. Li is an associate professor in Department of Computer Science and Technology, Tsinghua University. His research focuses on analysis and retrieval for image and video, computer vision and machine learning.

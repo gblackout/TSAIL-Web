@@ -1,0 +1,3 @@
+Yucen Luo
+http://bigml.cs.tsinghua.edu.cn/~yucen/
+Currently I am a first year PhD co-advised by Prof. Jun Zhu and Prof. Bo Zhang, focused on multimodal learning using deep generative models. My research interests include large-margin learning, Bayesian latent variable models and multimodal learning. I received my Bachelor¡¯s degree in Electronic Engineering from Tsinghua University, in June 2015.

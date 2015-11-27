@@ -1,0 +1,3 @@
+Jiaming Song
+http://ml.cs.tsinghua.edu.cn/~jiaming/
+I am a senior undergraduate student in Tsinghua University (BS expected 2016). My reserach interests are primarily on large-scale machine learning, especially Bayesian methods with applications with social networks and computer vision.

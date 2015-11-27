@@ -1,0 +1,3 @@
+Wei Li (¿ÓŒ°)
+
+I am a Ph.D. student of Professor Bo Zhang. I joined this group after I got my Bachelor degree in computer science at Tsinghua University in 2012. My research interests include computer vision and multimedia analysis. Currently I am working on algorithms for scalable visual instance mining.

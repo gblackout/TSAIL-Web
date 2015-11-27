@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+    <meta charset="utf-8">
 
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -16,17 +16,18 @@
 <body>
 
 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" style="padding: 1px">
-                <img alt="Brand" src="imgs/bayes.jpg" width="120" height="75">
-            </a>
+            <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">TSAIL</a>
         </div>
-
-        <div class="navbar-collapse collapse" id="navbar">
-            <ul class="nav navbar-nav" role="tablist">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
                 <li role="presentation"><a href="index.html">Home</a></li>
                 <li role="presentation"><a href="people.html">People</a></li>
                 <li role="presentation" class="active"><a href="#">Projects</a></li>
@@ -34,85 +35,106 @@
                 <li role="presentation"><a href="resources.html">Resources</a></li>
             </ul>
         </div>
-
     </div>
-</nav>
+</div>
 
-<div class="container">
+<div id="lg" style="padding-bottom:10px; padding-top:35px">
+    <div class="container" style="text-align: center">
+        <h3>RESEARCH PROJECTS</h3>
+        <div class="row">
 
-    <a href="#"><h1>Regularized Bayesian Inference</h1></a>
-    <div class="media">
-        <div class="media-left">
-            <a href="#"><img class="media-object" style="width: 500px" src="imgs/regbayes.PNG"></a>
-        </div>
-        <div class="media-body">
-            <p>Regularized Bayesian Inference (RegBayes) is a computational framework that allows your Bayesian and nonparametric Bayesian models to incorporate rich side knowledge into the inference process by defining an appropriate posterior regularization term. When the posterior regularization is defined following the principle of max-margin, RegBayes allows you to learn Bayesian and nonparametric Bayesian models discriminatively, similar to what we do in support vector machines; but here everything is done via probabilistic inference, thus easily handling noise, ambiguity, or missing values and discovering statistical structures hiding in complex data. With nonparametric techniques, so we have infinite support vector machines and infinite latent support vector machines.
-	    </p>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Regularized Bayesian Inference</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="imgs/regbayes.PNG" class="img-responsive">
+                    </div>
+                    <div class="panel-footer">
+                        Regularized Bayesian Inference (RegBayes) is a computational framework that allows your Bayesian and nonparametric Bayesian models to incorporate rich side knowledge into the inference process by defining an appropriate posterior regularization term. When the posterior regularization is defined following the principle of max-margin, RegBayes allows you to learn Bayesian and nonparametric Bayesian models discriminatively, similar to what we do in support vector machines; but here everything is done via probabilistic inference, thus easily handling noise, ambiguity, or missing values and discovering statistical structures hiding in complex data. With nonparametric techniques, so we have infinite support vector machines and infinite latent support vector machines.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Deep Learning</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="imgs/regbayes.PNG" class="img-responsive">
+                    </div>
+                    <div class="panel-footer">
+                        Including deep generative models, LSTM, RNNs
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Sparse Learning</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="imgs/regbayes.PNG" class="img-responsive">
+                    </div>
+                    <div class="panel-footer">
+                        Including Sparse Topic Coding, Multi-task Learning, and Matrix completion
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Other Applications</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="imgs/regbayes.PNG" class="img-responsive">
+                    </div>
+                    <div class="panel-footer">
+                        add intro here
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Topic Modeling</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="imgs/Panorama.JPG" class="img-responsive">
+                    </div>
+                    <div class="panel-footer">
+                        Including models (MedLDA), scalable algorithms (LDA and CTMs), and visualization.
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Learning from Crowds</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="imgs/regbayes.PNG" class="img-responsive">
+                    </div>
+                    <div class="panel-footer">
+                        Including max-margin majority voting, understanding user behavior patterns
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Web Data Mining</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="imgs/regbayes.PNG" class="img-responsive">
+                    </div>
+                    <div class="panel-footer">
+                        Including Sparse Topic Coding, Multi-task Learning, and Matrix completion
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
-
-    <a href="#"><h1>Topic Modeling</h1></a>
-    <div class="media">
-        <div class="media-left">
-            <a href="#"><img class="media-object" style="width: 500px" src="imgs/Panorama.JPG"></a>
-        </div>
-        <div class="media-body">
-            <p>Including models (MedLDA), scalable algorithms (LDA and CTMs), and visualization
-	    </p>
-        </div>
-    </div>
-
-    <a href="#"><h1>Deep Learning</h1></a>
-    <div class="media">
-        <div class="media-left">
-            <a href="#"><img class="media-object" style="width: 200px" src="imgs/junzhu.jpg"></a>
-        </div>
-        <div class="media-body">
-            <p>Including deep generative models, LSTM, RNNs
-	    Bayesian inference with MCMC</p>
-        </div>
-    </div>
-
-    <a href="#"><h1>Learning from Crowds</h1></a>
-    <div class="media">
-        <div class="media-left">
-            <a href="#"><img class="media-object" style="width: 200px" src="imgs/junzhu.jpg"></a>
-        </div>
-        <div class="media-body">
-            <p>Including max-margin majority voting, understanding user behavior patterns</p>
-        </div>
-    </div>
-
-    <a href="#"><h1>Sparse Learning</h1></a>
-    <div class="media">
-        <div class="media-left">
-            <a href="#"><img class="media-object" style="width: 200px" src="imgs/junzhu.jpg"></a>
-        </div>
-        <div class="media-body">
-            <p>Including Sparse Topic Coding, Multi-task Learning, and Matrix completion</p>
-        </div>
-    </div>
-
-    <a href="#"><h1>Web Data Mining</h1></a>
-    <div class="media">
-        <div class="media-left">
-            <a href="#"><img class="media-object" style="width: 200px" src="imgs/junzhu.jpg"></a>
-        </div>
-        <div class="media-body">
-            <p>Including Sparse Topic Coding, Multi-task Learning, and Matrix completion</p>
-        </div>
-    </div>
-
-    <a href="#"><h1>Other Applications</h1></a>
-    <div class="media">
-        <div class="media-left">
-            <a href="#"><img class="media-object" style="width: 200px" src="imgs/junzhu.jpg"></a>
-        </div>
-        <div class="media-body">
-            <p>add intro here</p>
-        </div>
-    </div>
-
 </div>
 
 </body>

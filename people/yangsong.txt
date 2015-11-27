@@ -1,0 +1,5 @@
+I am a senior undergraduate student from the Department of Physics, Tsinghua University, Beijing, P.R.C.
+
+ 
+
+I am interested in theories and applications in machine learning. I am continuously fascinated by topics like deep learning, graphical models, structured prediction and MCMC sampling. I am also very curious about computer vision, robotics and game theory.

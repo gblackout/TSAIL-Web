@@ -1,0 +1,3 @@
+Chang Liu
+
+I am a PhD student of Jun. My interests are scalable MCMC methods and their applications.

@@ -1,0 +1,3 @@
+Zihao Xiao
+
+Hi, I am a master student of Prof.Jun Zhu. I am interested in implementing machine learning methods on spiking neural networks(SNNs) and implement these SNNs on brain-inspired hardware. Currently I am focusing on using SNNs to do inference and train restricted Boltzmann machines(RBMs).

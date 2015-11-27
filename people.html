@@ -1,32 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
 
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 </head>
 
 
 <body>
-
-
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" style="padding: 1px">
-                <img alt="Brand" src="imgs/bayes.jpg" width="120" height="75">
-            </a>
+            <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">TSAIL</a>
         </div>
-
-        <div class="navbar-collapse collapse" id="navbar">
-            <ul class="nav navbar-nav" role="tablist">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
                 <li role="presentation"><a href="index.html">Home</a></li>
                 <li role="presentation" class="active"><a href="#">People</a></li>
                 <li role="presentation"><a href="projects.html">Projects</a></li>
@@ -34,368 +31,295 @@
                 <li role="presentation"><a href="resources.html">Resources</a></li>
             </ul>
         </div>
-
     </div>
-</nav>
+</div>
 
+<div class="container w centered">
+    <h3>FACULTY</h3>
+    <div class="row">
 
-<div class="container">
-
-    <div class="col-md-10" role="main">
-        <div class="list-wrapper"  id="faculty">
-            <h1>Principal Investigator</h1>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading"><a href="http://bigml.cs.tsinghua.edu.cn/~jun/index.shtml">Bo Zhang</a></h2>
-                    <p class="people-title">title</p>
-                    <p>intro </p>
-                </div>
+        <div class="col-lg-2 col-lg-offset-2">
+            <div class="tilt">
+                <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
             </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/junzhu.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading"><a href="http://bigml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a></h2>
-                    <p class="people-title">Associate Professor at Tsinghua University, Adjunct Faculty at Carnegie Mellon University</p>
-                    <p>I am an Associate Professor of Computer Science at Tsinghua University, and an Adjunct Faculty of Machine Learning at Carnegie Mellon University. 	My research focuses on developing statistical machine learning methods to understand complex scientific and engineering data. My current interests are in latent variable models, large-margin learning, Bayesian nonparametrics, and sparse learning in high dimensions. Before joining Tsinghua in 2011, I was a post-doc researcher and project scientist at the Machine Learning Department in Carnegie Mellon University. </p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading"><a href="http://bigml.cs.tsinghua.edu.cn/~jun/index.shtml">Xiaolin Hu</a></h2>
-                    <p class="people-title">title</p>
-                    <p>intro </p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading"><a href="http://bigml.cs.tsinghua.edu.cn/~jun/index.shtml">Jianmin Li</a></h2>
-                    <p class="people-title">title</p>
-                    <p>intro </p>
-                </div>
-            </div>
+            <h4><a href="#">Bo Zhang</a></h4>
         </div>
-
-        <div class="list-wrapper" id="postdocs">
-            <h1>Postdocs</h1>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Hang Su</h2>
-                    <p>My introduction</p>
-                </div>
+        <div class="col-lg-2">
+            <div class="tilt">
+                <img width="110" height="110" alt="" src="imgs/junzhu.jpg" class="img-circle">
             </div>
+            <h4><a href="#">Jun Zhu</a></h4>
         </div>
-
-        <div class="list-wrapper" id="graduate">
-            <h1>Graduate Students</h1>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Bei Chen</h2>
-                    <p>intro</p>
-                </div>
+        <div class="col-lg-2">
+            <div class="tilt">
+                <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
             </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Wei Li</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Wenbo Hu</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Juzheng Li</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Tian Tian</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/jianfei.png">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading"><a href="http://ml.cs.tsinghua.edu.cn/~jianfei">Jianfei Chen</a></h2>
-                    <p>I am a PhD student of Jun. My research focuses on developing scalable machine learning algorithms for probabilistic graphical models. My current interests are scalable topic models, online learning, distributed computing and GPU acceleration. I got my bachelor degree in computer science at Tsinghua University.</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Eloi Delebarre</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Chao Du</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Chongxuan Li</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Chang Liu</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Jingwei Zhuo</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Yucen Luo</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Yong Ren</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Jiaxin Shi</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Yulong Wang</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Zihao Xiao</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Shifeng Zhang</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Yichi Zhou</h2>
-                    <p>intro</p>
-                </div>
-            </div>
+            <h4><a href="#">Xiaolin Hu</a></h4>
         </div>
-
-        <div class="list-wrapper" id="undergrad">
-            <h1>Undergraduate Students</h1>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Jialian Li</h2>
-                    <p>intro</p>
-                </div>
+        <div class="col-lg-2">
+            <div class="tilt">
+                <img width="110" height="110" alt="" src="imgs/jianmin.jpg" class="img-circle">
             </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Yanze Min</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Kun Xu</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Haoshou Zhou</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Chengxu Zhuang</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="list-wrapper" id="others">
-            <h1>Others</h1>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Jiaming Song</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/bayes.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Yang Song</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="list-wrapper" id="visiting">
-            <h1>Visiting Students</h1>
-            <div class="media">
-                <div class="media-left">
-                    <img class="media-object"  src="imgs/yuan.jpg">
-                </div>
-                <div class="media-body">
-                    <h2 class="media-heading">Yuan Yang</h2>
-                    <p>intro</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="list-wrapper" id="alumni">
-            <h1>Alumni</h1>
-            <ul>
-                <li>Jianqiu Ji, PhD, (graduated in 2015, now Postdoc at Tsinghua)</li>
-                <li>	Lingxi Xie, PhD, (graduated in 2015, now Postdoc at John Hopkins U.)	</li>
-                <li>	Minjie Xu, PhD, (graduated in 2015, now at Bloomberg)	</li>
-                <li>	Xiaolu Zhang, PhD, (graduated in 2015, now at IBM)	</li>
-                <li>	Arnab Bhadury, Master (graduated in 2015, English Class, now at Flipboard)	</li>
-                <li>	Tianlin Shi, Undergraduate (graduated in 2015, now at Stanford)	</li>
-                <li>	Da Tang, Undergraduate (graduated in 2015, now at Columbia U.)	</li>
-                <li>	Aonan Zhang, Master (graduated in 2014, now at Columbia U.)	</li>
-                <li>	Yining Wang, Undergraduate (graduated in 2014, now at CMU)	</li>
-                <li>	Zi Wang, Undergraduate (graduated in 2014, now at MIT)	</li>
-                <li>	Chengtao Li, Undergraduate (graduated in 2014, now at MIT)	</li>
-                <li>	Yang Gao, Undergraduate (graduated in 2014, now at UC Berkeley)	</li>
-                <li>	Hugh Perkins, Master (graduated in 2013, English Class, now at Standard Chartered bank)	</li>
-                <li>	Shike Mei, Undergraduate (graduated in 2013, now at U. of Wisconsin-Madison)	</li>
-                <li>	Xun Zheng, Undergraduate (graduated in 2013, now at CMU)	</li>
-                <li>	Fei Xia, Undergraduate (graduated in 2013, join CMU for Master study)	</li>
-                <li>	Suqi Liu, Undergraduate (graduated in 2013, join UCSD for PhD study)	</li>
-                <li>	Chi Jin, Undergraduate (graduated in 2013, join UC, Berkeley for PhD study)	</li>
-                <li>	Haoruo Peng, Undergraduate (graduated in 2013, join UIUC for PhD study)	</li>
-                <li>	Kuan Liu, Undergraduate (graduated in 2012, join USC for Ph.D study)	</li>
-            </ul>
+            <h4><a href="#">Jianmin Li</a></h4>
         </div>
 
     </div>
+</div>
 
-    <div class="col-md-1" role="complementary">
-        <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
-            <ul class="nav bs-docs-sidenav">
-                <li><a href="#faculty">faculty</a></li>
-                <li><a href="#postdocs">Postdocs</a></li>
-                <li><a href="#graduate">Graduate Students</a></li>
-                <li><a href="#undergrad">Undergraduate Students</a></li>
-                <li><a href="#others">Others</a></li>
-                <li><a href="#visiting">Visiting Students</a></li>
-                <li><a href="#alumni">Alumni</a></li>
-            </ul>
-        </nav>
+<div style="padding-bottom:10px; padding-top:10px; text-align: center">
+    <div class="container">
+        <h3>POSTDOCS</h3>
+        <div class="col-lg-2 col-lg-offset-5">
+            <div class="tilt">
+                <img width="110" height="110" alt="" src="imgs/Hang.jpg" class="img-circle">
+            </div>
+            <h4><a href="#">Hang Su</a></h4>
+        </div>
     </div>
+</div>
 
+<div style="padding-bottom:10px; padding-top:10px" id="lg">
+    <div class="container">
+        <h3>GRADUATE STUDENTS</h3>
+        <div class="row centered">
 
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Bei Chen</a></h4>
+                <p>PhD Candidate<br>Electrical Engineering</p>
+            </div>
 
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/wei.png" class="img-circle">
+                </div>
+                <h4><a href="#">Wei Li</a></h4>
+                <p>PhD Student<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Wenbo Hu</a></h4>
+                <p>PhD Student<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Juzheng Li</a></h4>
+                <p>PhD Student<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Tian Tian</a></h4>
+                <p>PhD Student<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/jianfei.png" class="img-circle">
+                </div>
+                <h4><a href="#">Jianfei Chen</a></h4>
+                <p>PhD Student<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Eloi Delebarre</a></h4>
+                <p>PhD Student<br>Computer Science</p>
+            </div>
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Chao Du</a></h4>
+                <p>PhD Student<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Chongxuan Li</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/ChangLiu.png" class="img-circle">
+                </div>
+                <h4><a href="#">Chang Liu</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Jingwei Zhuo</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/yucen.png" class="img-circle">
+                </div>
+                <h4><a href="#">Yucen Luo</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Yong Ren</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Jiaxin Shi</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Yulong Wang</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/ZihaoXiao.png" class="img-circle">
+                </div>
+                <h4><a href="#">Zihao Xiao</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Shifeng Zhang</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/Yichi.JPG" class="img-circle">
+                </div>
+                <h4><a href="#">Yichi Zhou</a></h4>
+                <p>PhD Student<br>Applied Mathematics</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div style="padding-bottom:10px; padding-top:10px" id="dg">
+    <div class="container centered">
+        <h3>UNDERGRADUATE STUDENTS</h3>
+        <div class="row centered">
+
+            <div class="col-lg-2 col-lg-offset-1">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/jialian.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Jialian Li</a></h4>
+                <p>Freshman<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Yanze Min</a></h4>
+                <p>Freshman<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Kun Xu</a></h4>
+                <p>Freshman<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Haoshou Zhou</a></h4>
+                <p>Freshman<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/bayes.jpg" class="img-circle">
+                </div>
+                <h4><a href="#">Chengxu Zhuang</a></h4>
+                <p>Freshman<br>Computer Science</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div style="padding-bottom:10px; padding-top:10px; text-align: center">
+    <div class="container centered">
+        <h3>OTHERS</h3>
+        <div class="row centered">
+
+            <div class="col-lg-2 col-lg-offset-4">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/jiaming.png" class="img-circle">
+                </div>
+                <h4><a href="http://www-scf.usc.edu/~mhankin/">Jiaming Song</a></h4>
+                <p>Freshman<br>Computer Science</p>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/yangsong.jpg" class="img-circle">
+                </div>
+                <h4><a href="http://www-scf.usc.edu/~mhankin/">Yang Song</a></h4>
+                <p>Freshman<br>Computer Science</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div style="padding-bottom:10px; padding-top:10px; text-align: center">
+    <div class="container centered">
+        <h3>VISITING STUDENTS</h3>
+        <div class="row centered">
+
+            <div class="col-lg-2 col-lg-offset-5">
+                <div class="tilt">
+                    <img width="110" height="110" alt="" src="imgs/yuan.jpg" class="img-circle">
+                </div>
+                <h4><a href="http://www-scf.usc.edu/~mhankin/">Yuan Yang</a></h4>
+                <p>Senior<br>Software Engineering</p>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 </body>
-
-
 </html>
