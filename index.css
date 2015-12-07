@@ -52,6 +52,15 @@ p {
     letter-spacing: 1px;
     padding: 13px;
 }
+
+.navbar .navbar-toggle {
+    background-color: #eeeeee;
+}
+
+.icon-bar {
+    background-color: #888888;
+}
+
 #headerwrap {
     background: url("imgs/bgd.jpg")  no-repeat scroll center center / cover ;
     margin-top: -10px;
