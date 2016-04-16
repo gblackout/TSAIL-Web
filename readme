@@ -1,0 +1,96 @@
+* ========================================== *
+*     Manual for managing TSAIL website      *
+* ========================================== *
+
+
+========== Overview ==========
+This is a manual for managing the website of TSAIL. It first introduces the general framework of the website and the
+function of each page. Then, for those info that changes frequently, we introduce how to update them.
+
+
+========== Framework ==========
+This website follows a simple design. It has several htmls: index.html people.html projects.html publications.html and
+resources.html. They are all static and each one is a single web page. One can navigate from one to another using the
+bar located at the top of each page (the default page is index page).
+
+Our website follows a responsive design, which is implemented using Bootstrap framework. In that case, the page can be
+easily displayed in mobile devices. Bootstrap provides some css and js codes. Note that we only include its online url,
+so if someday the cdn is broken then our css will be broken too.
+
+
+========== Page Functions ==========
+index.html: Displays our research overview and some news
+
+people.html: Displays our current lab members and alumni as well as accesses to their personal pages
+
+projects.html: Displays our ongoing projects such as their names and corresponding brief descriptions
+
+publications.html: A chronological list of publications in our lab
+
+resources.html: A page where you can put your open-source/project code for download
+
+
+========== Information Update ==========
+index.html: You can update news in index.html.
+
+1. Find the <ul> </ul> tag
+2. Add a <li> content </li> tag in it
+3. if you'd like to change its color, you can use tag <li style="color: #ff0000"> content </li> (#ff0000 means red)
+
+
+
+people.html: You can update members in people.html. In this page, members are grouped into several groups: faculty,
+postdoc, grad student, undergrad and alumni. Each group is contained in a <div class="container"> ... <\div> tag. For
+each member its code is like this
+
+<div class="col-lg-2">
+    <div class="tilt">
+        <img width="110" height="110" alt="" src="imgs/file" class="img-circle">
+    </div>
+    <h4><a href="url_of_personal_page">name</a></h4>
+    <p>interest</p>
+</div>
+
+If you want to delete a member, then find such structures with its name in it and delete the code. If you'd like to add
+a member, then paste the code to certain container. The information you need to fill in is the path to his/her pictures
+(src="imgs/file"), personal page url (href="url_of_personal_page", href="#" if none), name (name), and interest
+(<p>interest</p>).
+
+Note that if the group has less than 6 members, then you may need to add offset col-lg-offset-? in the FIRST member's
+div like this <div class="col-lg-2 col-lg-offset-?">. Here the ? can be 0-12. The idea is that in Bootstrap, page is cut
+horizontally into 12 columns, and col-lg-2 means this div takes 2 columns. So initially each row can show 6 members
+(6x2=12). But if we have, for example, 2 members, then in order to put them in the center, we need to add offset at the
+left of the FIRST member div. In that case, it's 4, since (4x2+2x2=12)
+
+To manage the list of alumni, you can simply add or delete the <li> ... <\li> at the end of the page
+
+
+
+projects.html: You update the projects info in this page. The projects are displayed in two columns. We implemented
+using two container divs, where each of them has col-lg-6. Each project is presented using a panel like this:
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>name</h3>
+    </div>
+    <div class="panel-body">
+        <img src="imgs/file" class="img-responsive">
+    </div>
+    <div class="panel-footer">
+        add intro here
+    </div>
+</div>
+
+To add/delete a project, you paste/delete such code in the certain panel. The info you need to fill in is: name of
+projects (<h3>name</h3>), img of the project (src="imgs/file"), and a intro (<div class="panel-footer"> add intro here
+</div>)
+
+
+
+publications.html: You can update list of papers in publications.html. You can add/remove a paper by adding/deleting
+the <li> ... </li> in the page.
+
+
+
+resources.html: This page is originally intended to provide downloads for some project codes and data. But currently
+there is none. If you'd like to put something on it, please contact the website manager to figure it out how to do this.
